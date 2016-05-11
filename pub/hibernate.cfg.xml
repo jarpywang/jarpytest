@@ -97,9 +97,9 @@
     <!-- MySQL configuration.
          Uncomment if you want to use MySQL and comment out other database configurations. -->
 		 
-    <property name="connection.url">jdbc:${OPENSHIFT_myiwiki_DB_URL}</property>
-    <property name="connection.username">${OPENSHIFT_myiwiki_DB_USERNAME}</property>
-    <property name="connection.password">${OPENSHIFT_myiwiki_DB_PASSWORD}</property>
+    <property name="connection.url">jdbc:${OPENSHIFT_WIKI_MYSQL_DB_URL}</property>
+    <property name="connection.username">${OPENSHIFT_WIKI_MYSQL_DB_USERNAME}</property>
+    <property name="connection.password">${OPENSHIFT_WIKI_MYSQL_DB_PASSWORD}</property>
     <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
     <property name="dbcp.ps.maxActive">20</property>
