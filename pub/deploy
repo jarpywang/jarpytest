@@ -3,6 +3,6 @@
 pushd ${OPENSHIFT_HOMEDIR} >/dev/null
 
 find -name wiki.war | grep app-deployments |xargs rm
-# find -name wiki.war | grep repo |xargs rm
+find -name wiki.war | grep repo |xargs rm
 
 popd >/dev/null
