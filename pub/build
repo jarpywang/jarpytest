@@ -2,6 +2,7 @@
 
 # To update the version shipped in this quickstart, bump this variable:
 #
+echo "start"
 install_version="7.4.3"
 
 # Download and install XWiki
