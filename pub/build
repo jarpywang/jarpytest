@@ -45,7 +45,7 @@ rm -rf xwiki.war
 # add libs
 curl -s http://central.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.jar > xwiki/WEB-INF/lib/guice-3.0.jar
 curl -s http://central.maven.org/maven2/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0.jar > xwiki/WEB-INF/lib/guice-servlet-3.0.jar
-#curl -s http://central.maven.org/maven2/com/h2database/h2/1.4.178/h2-1.4.178.jar > xwiki/WEB-INF/lib/h2-1.4.178.jar
+curl -s http://central.maven.org/maven2/mysql/mysql-connector-java/5.1.37/mysql-connector-java-5.1.37.jar > xwiki/WEB-INF/lib/h2-1.4.178.jar
 
 # remove existing hibernate config
 rm -f xwiki/WEB-INF/hibernate.cfg.xml
